@@ -1,0 +1,27 @@
+[package]
+name = "qsplatform"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bytes = "1"
+tokio = { version = "1", features = ["full"] }
+http = "0.2"
+httparse = "1.0"
+h2 = { version = "0.3", optional = true }
+pin-project = "1.0"
+pin-project-lite = "0.2"
+want = "0.3"
+libc = { version = "0.2", optional = true }
+pretty_env_logger = "0.4"
+futures = "0.3.14"
+###安全类型转换
+ref-cast = "1.0"
+indexmap = { version = "1.0", features = ["serde-1"] }
+tempfile = "3"
+serde = { version = "1.0", features = ["derive"] }
+log = { version = "0.4", features = ["std"] }
+
+
