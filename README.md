@@ -1,0 +1,2 @@
+# qscode
+rust代码
